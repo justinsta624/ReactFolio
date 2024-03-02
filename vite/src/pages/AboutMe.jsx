@@ -13,13 +13,13 @@ function AboutMe() {
             {/* Paragraph with information about the developer */}
             <p className="contact-form-section  p-4">
                 {/* Content describing the developer's background and skills */}
-                <br> As a University of Toronto Honours Bachelor of Arts graduate, I am Hanbyeol Justin Lee </br>
-                <br> a dedicated Full-Stack Developer with a passion for crafting innovative solutions. I thrive both independently and in collaborative team environments, valuing
+                As a University of Toronto Honours Bachelor of Arts graduate, I am Hanbyeol Justin Lee
+                a dedicated Full-Stack Developer with a passion for crafting innovative solutions. I thrive both independently and in collaborative team environments, valuing
                 effective communication and cooperation. My foundational understanding of project management, coupled with critical thinking
-                and decision-making skills, enables me to take a methodical approach to reviewing cases and responding promptly. </br> 
-                <br> I excel in problem-solving, data collection, and organizational tasks, ensuring meticulous attention to detail that contributes to the
+                and decision-making skills, enables me to take a methodical approach to reviewing cases and responding promptly.
+                I excel in problem-solving, data collection, and organizational tasks, ensuring meticulous attention to detail that contributes to the
                 success of projects. With a commitment to continuous learning and staying abreast of industry trends, I am eager to bring my
-                technical expertise and collaborative spirit to contribute to your team's achievements.  </br>
+                technical expertise and collaborative spirit to contribute to your team's achievements.
             </p>
         </div>
     );

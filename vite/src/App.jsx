@@ -1,9 +1,6 @@
 // Import the React library
 import React from 'react';
 
-// Import the CSS file for styling
-import "./App.css";
-
 // Import necessary components and utilities from React Router
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 

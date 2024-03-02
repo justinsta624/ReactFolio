@@ -1,18 +1,24 @@
+/* Style for the entire app, centering its content */
 .App {
   text-align: center;
 }
 
+/* Styling for the app logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Media query to apply animation only if prefers-reduced-motion is not set to 'reduce' */
 @media (prefers-reduced-motion: no-preference) {
+
+  /* Animation for spinning the App logo infinitely */
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* Styling for the main header section of the app */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,56 +30,67 @@
   color: white;
 }
 
+/* Styling for links within the app */
 .App-link {
   color: #61dafb;
 }
 
+/* Keyframes for spinning animation of the App logo */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
+/* Styling for the profile picture */
 .profile-picture {
   width: 24%;
-  height: 11%
-}
-.aboutMe {
-display: inline;
-line-height: 35px;
-margin-left: 130px;
-flex-wrap: wrap;
+  height: 11%;
 }
 
+/* Styling for the aboutMe section */
+.aboutMe {
+  display: inline;
+  line-height: 35px;
+  margin-left: 130px;
+  flex-wrap: wrap;
+}
+
+/* Styling for adding margin and padding to the contact section */
 .contactMargin {
   margin: "400px";
   padding: 50px;
 }
 
+/* Styling for the container of the aboutMe section */
 .aboutMeContainer {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
+/* Styling for images to ensure they don't exceed their container width */
 img {
-  
-  max-width: 100%
+  max-width: 100%;
 }
 
+/* Styling for the profile picture section */
 .profile-pic {
   flex-basis: 60%;
   margin: 26px;
 }
 
+/* Styling for text, setting font size and padding */
 .text {
   font-size: 20px;
   padding-left: 20px;
 }
 
+/* Placeholder styling for the maifrigoTechnologies class */
 .maifrigoTechnologies {
-  
+  /* Add your specific styling for maifrigoTechnologies here */
 }

@@ -8,7 +8,7 @@ function AboutMe() {
             <h1>About Me</h1>
 
             {/* Image of the developer with styling */}
-            <img src="./public/myself.png" alt="Recent photo of the developer" className="img-fluid rounded my-3" style={{ maxWidth: '250px' }} />
+            <img src="./myself.png" alt="Recent photo of the developer" className="img-fluid rounded my-3" style={{ maxWidth: '250px' }} />
 
             {/* Paragraph with information about the developer */}
             <p className="contact-form-section  p-4">

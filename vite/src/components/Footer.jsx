@@ -1,18 +1,20 @@
 import React from "react";
 
+// Define the Footer component
 export default function Footer() {
   return (
-    //icons containing links to social media etc
+    // Render icons containing links to social media, etc.
     <>
+      {/* Footer container with styling */}
       <footer
         className="text-center text-white"
         style={{ backgroundColor: "#f1f1f1;" }}
       >
-        {/* <!-- Grid container --> */}
+        {/* Grid container */}
         <div className="container pt-4">
-          {/* <!-- Section: Social media --> */}
+          {/* Section: Social media */}
           <section className="mb-4">
-            {/* <!-- Facebook --> */}
+            {/* Facebook link */}
             <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
               href="https://www.facebook.com/hanbyeol.j.lee"
@@ -22,7 +24,7 @@ export default function Footer() {
               <i className="fab fa-facebook-f"></i>
             </a>
 
-            {/* <!-- Instagram --> */}
+            {/* Instagram link */}
             <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
               href="https://www.instagram.com/legendary_onesta/"
@@ -32,7 +34,7 @@ export default function Footer() {
               <i className="fab fa-instagram"></i>
             </a>
 
-            {/* <!-- Linkedin --> */}
+            {/* Linkedin link */}
             <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
               href="https://www.linkedin.com/in/hanbyeol-lee-584232296/"
@@ -41,7 +43,7 @@ export default function Footer() {
             >
               <i classNames="fab fa-linkedin"></i>
             </a>
-            {/* <!-- Github --> */}
+            {/* Github link */}
             <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
               href="https://github.com/justinsta624"
@@ -52,19 +54,20 @@ export default function Footer() {
             </a>
           </section>
         </div>
-        {/* <!-- Grid container --> */}
+        {/* End of Grid container */}
 
-        {/* <!-- Copyright --> */}
+        {/* Copyright information */}
         <div
           className="text-center text-dark p-3"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
+          {/* Copyright notice with a link to the GitHub repository */}
           © 2024 Copyright:
           <a className="text-dark" href="https://github.com/justinsta624/ReactFolio">
             Hanbyeol Justin Lee
           </a>
         </div>
-        {/* <!-- Copyright --> */}
+        {/* End of Copyright */}
       </footer>
     </>
   );

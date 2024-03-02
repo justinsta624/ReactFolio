@@ -1,68 +1,106 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Apply a background color to all elements within the document */
+* {
+  background-color: #1b1f22;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
+/* Styling for h1 elements with a specific text decoration and background color */
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  text-decoration: #c431f9;
+  background-color: #0000;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+/* Styling for h5 elements with no text decoration */
+h5 {
+  text-decoration: none;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/* Set a minimum height for all elements with the class 'card' */
+.card {
+  min-height: 200px;
+}
+
+/* Styling for elements with the class 'card-img' */
+.card-img {
+  position: relative;
+}
+
+/* Styling for a section with the class 'contact-form-section' */
+.contact-form-section {
+  background-color: #1b1f22;
+  /* Dark background color */
+  color: #fff;
+  /* Text color */
+  padding: 2rem;
+}
+
+/* Styling for h2 elements within the 'contact-form-section' section */
+.contact-form-section h2 {
+  margin-bottom: 1rem;
+  color: #c431f9;
+}
+
+/* Styling for the form within the 'contact-form-section' section */
+.contact-form-section form {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Styling for labels within the 'contact-form-section' section */
+.contact-form-section .form-label {
+  text-align: left;
+  display: block;
+  color: #c431f9;
+  /* Orange color for labels */
+}
+
+/* Styling for input fields within the 'contact-form-section' section */
+.contact-form-section .form-control {
+  background-color: #424242;
+  /* Darker background for input fields */
+  border: none;
+  margin-bottom: 1rem;
+  color: #fff;
+  /* Text color */
+}
+
+/* Styling for the placeholder text in input fields within the 'contact-form-section' section */
+.contact-form-section .form-control::placeholder {
+  color: #757575;
+  /* Placeholder text color */
+}
+
+/* Styling for buttons within the 'contact-form-section' section */
+.contact-form-section .btn {
+  background-color: #291ef6;
+  /* Blue color for button */
+  border: none;
+  color: #fff;
+  /* Text color */
+}
+
+/* Styling for links within the footer, setting font size for icons */
+footer a {
+  font-size: 35px;
+  /* Size of the icons */
+}
+
+/* Styling for links within the footer on hover, changing text color */
+footer a:hover {
+  color: #fff;
+}
+
+/* Styling for icons within the footer, setting padding */
+footer i {
+  padding: 1rem;
+}
+
+/* Styling for images, setting display property to center them */
+img {
+  display: center;
+}
+
+/* Styling for paragraphs, setting font size and text alignment */
+p {
+  font-size: x-large;
+  text-align: center;
 }

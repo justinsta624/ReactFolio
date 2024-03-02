@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 // Define the Footer component
 export default function Footer() {

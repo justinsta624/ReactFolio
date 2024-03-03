@@ -16,7 +16,7 @@ export default function Footer() {
           <section className="mb-4">
             {/* Facebook link */}
             <a
-              className="btn btn-link btn-floating btn-lg text-white m-1"
+              className="btn btn-link btn-floating btn-lg text-dark m-1"
               href="https://www.facebook.com/hanbyeol.j.lee"
               role="button"
               data-mdb-ripple-color="dark"
@@ -26,7 +26,7 @@ export default function Footer() {
 
             {/* Instagram link */}
             <a
-              className="btn btn-link btn-floating btn-lg text-white m-1"
+              className="btn btn-link btn-floating btn-lg text-dark m-1"
               href="https://www.instagram.com/legendary_onesta/"
               role="button"
               data-mdb-ripple-color="dark"
@@ -36,7 +36,7 @@ export default function Footer() {
 
             {/* Linkedin link */}
             <a
-              className="btn btn-link btn-floating btn-lg text-white m-1"
+              className="btn btn-link btn-floating btn-lg text-dark m-1"
               href="https://www.linkedin.com/in/hanbyeol-lee-584232296/"
               role="button"
               data-mdb-ripple-color="dark"
@@ -45,7 +45,7 @@ export default function Footer() {
             </a>
             {/* Github link */}
             <a
-              className="btn btn-link btn-floating btn-lg text-white m-1"
+              className="btn btn-link btn-floating btn-lg text-dark m-1"
               href="https://github.com/justinsta624"
               role="button"
               data-mdb-ripple-color="dark"
@@ -64,7 +64,7 @@ export default function Footer() {
           {/* Copyright notice with a link to the GitHub repository */}
           © 2024 Copyright:
           <a className="text-blue" href="https://github.com/justinsta624/ReactFolio">
-          <br />Hanbyeol Justin Lee
+            <br />Hanbyeol Justin Lee
           </a>
         </div>
         {/* End of Copyright */}

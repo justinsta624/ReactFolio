@@ -10,7 +10,7 @@ const Resume = () => {
 
             {/* Link to download the resume */}
             <h2 className="contact-form-section rounded-pill bg-black text-center rounded-lg p-4">
-                Download my <a href="https://docs.google.com/document/d/1EB-CSl6ou5QZL9NIBUsiI8iQncIdueWF/edit?usp=sharing&ouid=107335282898826746758&rtpof=true&sd=true" style={{ backgroundColor: 'black' }}>Résumé</a>
+                Download my <a href="https://drive.google.com/file/d/1wR3KJoxoFE5l1JSNCPxNFfiBJVRdePMI/view?usp=sharing" style={{ backgroundColor: 'black' }}>Résumé</a>
             </h2>
 
             {/* Front-End section */}

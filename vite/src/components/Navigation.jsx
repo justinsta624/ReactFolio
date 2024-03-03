@@ -33,7 +33,7 @@ function Navigation() {
                         </li>
                         {/* Navbar link for the 'Resume' page */}
                         <li className="nav-item">
-                            <Link className="nav-link text-white" style={{ backgroundColor: 'black' }} to="/resume">Resume</Link>
+                            <Link className="nav-link text-white" style={{ backgroundColor: 'black' }} to="/resume">Résumé</Link>
                         </li>
                     </ul>
                 </div>

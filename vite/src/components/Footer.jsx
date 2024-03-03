@@ -58,13 +58,13 @@ export default function Footer() {
 
         {/* Copyright information */}
         <div
-          className="text-center text-dark p-3"
+          className="text-center text-blue p-3"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
           {/* Copyright notice with a link to the GitHub repository */}
           © 2024 Copyright:
-          <a className="text-dark" href="https://github.com/justinsta624/ReactFolio">
-            Hanbyeol Justin Lee
+          <a className="text-blue" href="https://github.com/justinsta624/ReactFolio">
+          <br />Hanbyeol Justin Lee
           </a>
         </div>
         {/* End of Copyright */}

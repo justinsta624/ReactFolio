@@ -13,7 +13,7 @@ function Header() {
             {/* Container for header content */}
             <div className="container d-flex justify-content-between align-items-center" style={{ backgroundColor: 'black' }} >
                 {/* Header title */}
-                <h1> Portfolio: ⭐Hanbyeol Justin Lee⭐ </h1>
+                <h1> 🚀ReactFolio💾 </h1>
 
                 {/* Render the Navigation component */}
                 <Navigation />

@@ -77,9 +77,9 @@ export default function Contact() {
                     <label htmlFor="message" className="form-label">Message:</label>
                     <textarea className="form-control" id="message" rows="3" onBlur={handleBlur}></textarea>
                 </div>
-
+                <p>{errorMessage}</p>
                 {/* Button to submit the form with a success message */}
-                <button type="submit" className="btn btn-primary">MSG send Successfully!</button>
+                <button type="submit" className="btn btn-primary">Message sent successfully!</button>
             </form>
         </div>
     );

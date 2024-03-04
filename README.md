@@ -31,7 +31,10 @@ Followings are the outcomes of the challenge 20:
 
 The following images show the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+![Screenshot 2024-03-03 222406](https://github.com/justinsta624/ReactFolio/assets/143357899/be458bff-4150-4ff6-8840-74df460b477d)
+![Screenshot 2024-03-03 222426](https://github.com/justinsta624/ReactFolio/assets/143357899/e03f2a49-6428-4edf-86d9-5f7507d30487)
+![Screenshot 2024-03-03 222517](https://github.com/justinsta624/ReactFolio/assets/143357899/26273bd6-ef7f-4f6c-9970-a7aa53863ffe)
+![Screenshot 2024-03-03 222540](https://github.com/justinsta624/ReactFolio/assets/143357899/45b94882-b016-4f7a-bbc6-fe9a3db90b51)
 
 <div align="center">
 

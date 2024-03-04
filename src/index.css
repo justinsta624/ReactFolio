@@ -1,5 +1,6 @@
 /* Apply a background color to all elements within the document */
 * {
+  font-family: cursive;
   background-color: #1b1f22;
 }
 

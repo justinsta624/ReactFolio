@@ -11,9 +11,10 @@ import {
 export default function Contact() {
     // State variable to manage error messages
     const [errorMessage, setErrorMessage] = useState("");
-    const [name,setName] = useState("");
-    const [email,setEmail] = useState("");  
-    const [message,setMessage] = useState("");  
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
     // Event handler for input blur events
     const handleBlur = (e) => {
         // Check if the blurred input is the "name" field
@@ -54,13 +55,15 @@ export default function Contact() {
     };
 
     const submitform = (e) => {
-        e.preventDefault()
-        if(errorMessage||!name||!email||!message){
-            alert("form incomplete")
-        return
+        e.preventDefault();
+        if (errorMessage || !name || !email || !message) {
+            // Show an alert if the form is incomplete
+            alert("Error: Fill the required sections");
+            return;
         }
-        alert("message sent successfully!")
-    }
+        // Show a success message if the form is complete
+        alert("Message sent successfully!");
+    };
 
     // Return JSX for the Contact section
     return (
@@ -74,23 +77,23 @@ export default function Contact() {
                 {/* Input field for the user's name */}
                 <div className="mb-3">
                     <label htmlFor="name" className="form-label">Name:</label>
-                    <input type="text" className="form-control" id="name" name="name" value={name} placeholder="Write down your name" onChange={e =>setName(e.target.value)} onBlur={handleBlur} />
+                    <input type="text" className="form-control" id="name" name="name" value={name} placeholder="First & Last Name" onChange={e => setName(e.target.value)} onBlur={handleBlur} />
                 </div>
 
                 {/* Input field for the user's email address */}
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email address:</label>
-                    <input type="email" className="form-control" id="email" name="email" value={email} placeholder="Write down your email" onChange={e =>setEmail(e.target.value)} onBlur={handleBlur} />
+                    <input type="email" className="form-control" id="email" name="email" value={email} placeholder="e.g. Johndoe@email.com" onChange={e => setEmail(e.target.value)} onBlur={handleBlur} />
                 </div>
 
                 {/* Textarea for the user's message */}
                 <div className="mb-3">
                     <label htmlFor="message" className="form-label">Message:</label>
-                    <textarea className="form-control" id="message" name="message" value={message} rows="3" onChange={e =>setMessage(e.target.value)} onBlur={handleBlur}></textarea>
+                    <textarea className="form-control" id="message" name="message" value={message} rows="3" onChange={e => setMessage(e.target.value)} onBlur={handleBlur}></textarea>
                 </div>
                 <p>{errorMessage}</p>
                 {/* Button to submit the form with a success message */}
-                <button type="submit" className="btn btn-primary">Message sent successfully!</button>
+                <button type="submit" className="btn btn-primary">Send the Message</button>
             </form>
         </div>
     );

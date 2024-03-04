@@ -1,6 +1,6 @@
-// Import the React library and the Link component from 'react-router-dom'
+// Import the React library and the NavLink component from 'react-router-dom'
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 // Define the Navigation component
 function Navigation() {
@@ -21,19 +21,23 @@ function Navigation() {
                     <ul className="navbar-nav ms-auto">
                         {/* Navbar link for the 'About Me' page */}
                         <li className="nav-item">
-                            <Link className="nav-link text-white" style={{ backgroundColor: 'black' }} to="/">About Me</Link>
+                            {/* NavLink component with styling for the 'About Me' link */}
+                            <NavLink exact className="nav-link text-white" to="/" activeClassName="active">About Me</NavLink>
                         </li>
                         {/* Navbar link for the 'Portfolio' page */}
                         <li className="nav-item">
-                            <Link className="nav-link text-white" style={{ backgroundColor: 'black' }} to="/portfolio">Portfolio</Link>
+                            {/* NavLink component with styling for the 'Portfolio' link */}
+                            <NavLink className="nav-link text-white" to="/portfolio" activeClassName="active">Portfolio</NavLink>
                         </li>
                         {/* Navbar link for the 'Contact' page */}
                         <li className="nav-item">
-                            <Link className="nav-link text-white" style={{ backgroundColor: 'black' }} to="/contact">Contact</Link>
+                            {/* NavLink component with styling for the 'Contact' link */}
+                            <NavLink className="nav-link text-white" to="/contact" activeClassName="active">Contact</NavLink>
                         </li>
                         {/* Navbar link for the 'Resume' page */}
                         <li className="nav-item">
-                            <Link className="nav-link text-white" style={{ backgroundColor: 'black' }} to="/resume">Résumé</Link>
+                            {/* NavLink component with styling for the 'Resume' link */}
+                            <NavLink className="nav-link text-white" to="/resume" activeClassName="active">Résumé</NavLink>
                         </li>
                     </ul>
                 </div>

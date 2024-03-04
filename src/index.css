@@ -1,107 +1,159 @@
 /* Apply a background color to all elements within the document */
 * {
   font-family: cursive;
+  /* Set the font-family for all elements to 'cursive' */
   background-color: #1b1f22;
+  /* Set the background color for all elements to a dark grayish-blue */
 }
 
 /* Styling for h1 elements with a specific text decoration and background color */
 h1 {
   text-decoration: #c431f9;
+  /* This seems like an incorrect value for text-decoration; it should be 'underline', 'overline', etc. */
   background-color: #0000;
+  /* This is likely an incorrect color code; it should have six characters or three characters if using shorthand (e.g., #000 or #000000) */
 }
 
 /* Styling for h5 elements with no text decoration */
 h5 {
   text-decoration: none;
+  /* Remove text decoration for h5 elements */
 }
 
 /* Set a minimum height for all elements with the class 'card' */
 .card {
   min-height: 200px;
+  /* Set a minimum height of 200 pixels for elements with the class 'card' */
 }
 
 /* Styling for elements with the class 'card-img' */
 .card-img {
   position: relative;
+  /* Set the position property to 'relative' for elements with the class 'card-img' */
 }
 
 /* Styling for a section with the class 'contact-form-section' */
 .contact-form-section {
   background-color: #1b1f22;
-  /* Dark background color */
+  /* Set the background color for the section to a dark grayish-blue */
   color: #fff;
-  /* Text color */
+  /* Set the text color for the section to white */
   padding: 2rem;
+  /* Add padding of 2rem to the section */
 }
 
 /* Styling for h2 elements within the 'contact-form-section' section */
 .contact-form-section h2 {
   margin-bottom: 1rem;
+  /* Add a bottom margin of 1rem to h2 elements within the section */
   color: #c431f9;
+  /* Set the color for h2 elements to a specific purple shade */
 }
 
 /* Styling for the form within the 'contact-form-section' section */
 .contact-form-section form {
   max-width: 500px;
+  /* Set the maximum width of the form to 500 pixels */
   margin: auto;
+  /* Center the form horizontally within its container */
 }
 
 /* Styling for labels within the 'contact-form-section' section */
 .contact-form-section .form-label {
   text-align: left;
+  /* Align labels to the left within the section */
   display: block;
+  /* Display labels as blocks */
   color: #c431f9;
-  /* Orange color for labels */
+  /* Set the color for labels to a specific purple shade */
 }
 
 /* Styling for input fields within the 'contact-form-section' section */
 .contact-form-section .form-control {
   background-color: #424242;
-  /* Darker background for input fields */
+  /* Set a darker background color for input fields within the section */
   border: none;
+  /* Remove borders from input fields */
   margin-bottom: 1rem;
+  /* Add a bottom margin of 1rem to input fields */
   color: #fff;
-  /* Text color */
+  /* Set the text color for input fields to white */
 }
 
 /* Styling for the placeholder text in input fields within the 'contact-form-section' section */
 .contact-form-section .form-control::placeholder {
   color: #757575;
-  /* Placeholder text color */
+  /* Set the color for placeholder text in input fields to a specific gray shade */
 }
 
 /* Styling for buttons within the 'contact-form-section' section */
 .contact-form-section .btn {
   background-color: #291ef6;
-  /* Blue color for button */
+  /* Set the background color for buttons to a specific blue shade */
   border: none;
+  /* Remove borders from buttons */
   color: #fff;
-  /* Text color */
+  /* Set the text color for buttons to white */
 }
 
 /* Styling for links within the footer, setting font size for icons */
 footer a {
   font-size: 35px;
-  /* Size of the icons */
+  /* Set the font size for links within the footer to 35 pixels */
 }
 
 /* Styling for links within the footer on hover, changing text color */
 footer a:hover {
   color: #fff;
+  /* Change the text color for links within the footer on hover to white */
 }
 
 /* Styling for icons within the footer, setting padding */
 footer i {
   padding: 1rem;
+  /* Add padding of 1rem to icons within the footer */
 }
 
 /* Styling for images, setting display property to center them */
 img {
   display: center;
+  /* This property should be 'block' or 'inline-block' to center the images; 'center' is not a valid value */
 }
 
 /* Styling for paragraphs, setting font size and text alignment */
 p {
   font-size: x-large;
+  /* Set the font size for paragraphs to x-large */
   text-align: center;
+  /* Align text within paragraphs to the center */
+}
+
+/* Add this CSS to ensure fixed height for the images and equal height for flex items in the same row */
+.card {
+  display: flex;
+  /* Set the display property of elements with the class 'card' to 'flex' */
+  flex-direction: column;
+  /* Set the flex direction to 'column' to stack child elements vertically */
+}
+
+.card-body {
+  flex: 1;
+  /* Allow the 'card-body' to expand and fill the available space within the 'card' */
+}
+
+.card-img {
+  max-height: 200px;
+  /* Set the maximum height of the 'card-img' to 200 pixels */
+  object-fit: cover;
+  /* Ensure that the image covers the designated height */
+}
+
+/* Styling for the active link in the navbar */
+.navbar-nav .nav-link.active {
+  background-color: #333;
+  /* Set the background color for the active link in the navbar to a dark gray shade */
+  border-radius: 5px;
+  /* Apply a border radius of 5 pixels for rounded corners */
+  color: #fff;
+  /* Set the text color for the active link in the navbar to white */
 }

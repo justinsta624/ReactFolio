@@ -21,7 +21,7 @@
 Followings are the outcomes of the challenge 20:
 
 * The URL of the functional, deployed application </br>
-[Deployed application: NETLIFY](https://drive.google.com/file/d/1DesRcjh71bOVOYdFWXmtrp2ilY5Ni-Oo/view) </br>
+[Deployed application: NETLIFY](https://melodious-kleicha-6ffc72.netlify.app/) </br>
 
 * The URL of the GitHub repository, with a unique name and a README that describes the project </br>
 [Repository for this challenge](https://github.com/justinsta624/ReactFolio)

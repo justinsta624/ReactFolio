@@ -18,10 +18,8 @@ function AboutMe() {
                 <br />
                 Thrive independently and in collaborative team environments, valuing effective communication and cooperation<br />
                 Full-understanding of project management, coupled with critical thinking, and decision-making skills<br />
-                enables to take a methodical approach to reviewing cases and responding promptly<br />
                 <br />
                 Excel in problem-solving, data collection, and organizational tasks, detailed-analysis contributes to the success of projects<br />
-                Commitment to continuous learning and staying abreast of industry trends<br /> 
                 Eager to bring technical expertise and collaborative spirit to contribute to team's achievements.
             </p>
         </div>

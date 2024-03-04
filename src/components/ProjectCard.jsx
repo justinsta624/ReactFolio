@@ -1,8 +1,8 @@
 // Import the React library
 import React from 'react';
 
-// Define the ProjectCard component with destructured props (title, imageUrl, projectUrl)
-function ProjectCard({ title, imageUrl, projectUrl }) {
+// Define the ProjectCard component with destructured props (title, imageUrl, projectUrl, githubUrl)
+function ProjectCard({ title, imageUrl, projectUrl, githubUrl }) {
     // Return JSX for rendering a project card
     return (
         // Card container with dark background and white text
@@ -19,6 +19,16 @@ function ProjectCard({ title, imageUrl, projectUrl }) {
                         <h5 className="text-white w-100 rounded-pill text-center bg-black bg-opacity-75 py-2">{title}</h5>
                     </div>
                 </div>
+            </a>
+
+            {/* Button for project URL */}
+            <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-2">
+                Project Application
+            </a>
+
+            {/* Button for GitHub URL */}
+            <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="btn btn-secondary mt-2">
+                Link to GitHub Repository
             </a>
         </div>
     );

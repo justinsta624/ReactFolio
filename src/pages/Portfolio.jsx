@@ -10,37 +10,43 @@ function Portfolio() {
             title: 'Movie Review Application',
             description: '',
             imageUrl: '../project1.png',
-            projectUrl: ['https://teamprojectmoviereview.github.io/Team-Project-/', 'https://github.com/justinsta624/MovieReviewApp']
+            projectUrl: 'https://teamprojectmoviereview.github.io/Team-Project-/',
+            githubUrl: 'https://github.com/justinsta624/MovieReviewApp',
         },
         {
             title: 'J.A.T.E',
             description: '',
             imageUrl: '../Challenge7.png',
-            projectUrl: ['https://nameless-dusk-81129-0178012249db.herokuapp.com/', 'https://github.com/justinsta624/PWAJATE']
+            projectUrl: 'https://nameless-dusk-81129-0178012249db.herokuapp.com/', 
+            githubUrl: 'https://github.com/justinsta624/PWAJATE',
         },
         {
             title: 'MVC Tech Savvy',
             description: '',
             imageUrl: '../Challenge2.png',
-            projectUrl: ['https://polar-journey-77005-c598f31c0871.herokuapp.com/', 'https://github.com/justinsta624/MVCTechSavvy']
+            projectUrl: 'https://polar-journey-77005-c598f31c0871.herokuapp.com/', 
+            githubUrl: 'https://github.com/justinsta624/MVCTechSavvy',
         },
         {
             title: 'Weather Dashboard',
             description: '',
             imageUrl: '../Challenge6.png',
-            projectUrl: ['https://justinsta624.github.io/WeatherDashboard/', 'https://github.com/justinsta624/WeatherDashboard']
+            projectUrl: 'https://justinsta624.github.io/WeatherDashboard/', 
+            githubUrl: 'https://github.com/justinsta624/WeatherDashboard',
         },
         {
             title: 'Work Day Scheduler',
             description: '',
             imageUrl: '../Challenge5.png',
-            projectUrl: ['https://justinsta624.github.io/3rdPartyAPIs/', 'https://github.com/justinsta624/3rdPartyAPIs']
+            projectUrl: 'https://justinsta624.github.io/3rdPartyAPIs/',
+            githubUrl: 'https://github.com/justinsta624/3rdPartyAPIs',
         },
         {
             title: 'Password Generator',
             description: '',
             imageUrl: '../Challenge3.png',
-            projectUrl: ['https://justinsta624.github.io/JavapassgenC3/', 'https://github.com/justinsta624/JavapassgenC3']
+            projectUrl: 'https://justinsta624.github.io/JavapassgenC3/',
+            githubUrl: 'https://github.com/justinsta624/JavapassgenC3',
         },
     ];
 
